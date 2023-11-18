@@ -1,0 +1,20 @@
+.SwitchToggleThemeColor {
+  display: flex;
+}
+.labelhWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.label {
+  color: var(--color--sub--light);
+  margin: 0;
+}
+.ToggleSwitchWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+.ToggleSwitch {
+}

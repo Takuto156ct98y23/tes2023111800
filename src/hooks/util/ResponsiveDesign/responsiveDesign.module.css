@@ -1,0 +1,200 @@
+/*
+https://stackoverflow.com/questions/15649244/responsive-font-size-in-css
+1vw = 1% of viewport width
+1vh = 1% of viewport height
+1vmin = 1vw or 1vh, whichever is smaller
+1vmax = 1vw or 1vh, whichever is larger
+*/
+
+.responsiveDesign__windowWidthType_mobileS {
+  --font-size--h1: 10vmin;
+  --font-size--h2: 9vmin;
+  --font-size--h3: 8vmin;
+  --font-size--h4: 7vmin;
+  --font-size--h5: 6vmin;
+  --font-size--h6: 5vmin;
+  /* --font-size--default: 4vmin; */
+  --font-size--default: 3.5vmin;
+
+  --font-weight--min: 400;
+  --font-weight--medium: 500;
+  --font-weight--semi-bold: 600;
+  --font-weight--bold: 700;
+
+  --line-height--normal: 1;
+  --line-height--small: 1.05;
+  --line-height--medium: 1.2;
+  --line-height--paragraph: 1.6;
+  --line-height--large: 1.8;
+
+  --letter-spacing--narrow: -0.5px;
+  --letter-spacing--wide: 0.75px;
+
+  --border-radius--min: 0.5rem;
+  --border-radius--medium: 0.75rem;
+  --border-radius--max: 1rem;
+
+  /* --width--App: 320px; */
+  --width--App: 98vw;
+  --width--App--left: 0;
+  /* --width--App--center: 300px; */
+  --width--App--center: 96vw;
+  --width--App--right: 0;
+  --max-width--App--center--content: 10rem;
+  --box-shadow--bottom: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.responsiveDesign__windowWidthType_mobileL {
+  --font-size--h1: 10vmin;
+  --font-size--h2: 9vmin;
+  --font-size--h3: 8vmin;
+  --font-size--h4: 7vmin;
+  --font-size--h5: 6vmin;
+  --font-size--h6: 5vmin;
+  /* --font-size--default: 4vmin; */
+  --font-size--default: 3.5vmin;
+
+  --font-weight--min: 400;
+  --font-weight--medium: 500;
+  --font-weight--semi-bold: 600;
+  --font-weight--bold: 700;
+
+  --line-height--normal: 1;
+  --line-height--small: 1.05;
+  --line-height--medium: 1.2;
+  --line-height--paragraph: 1.6;
+  --line-height--large: 1.8;
+
+  --letter-spacing--narrow: -0.5px;
+  --letter-spacing--wide: 0.75px;
+
+  --border-radius--min: 0.5rem;
+  --border-radius--medium: 0.75rem;
+  --border-radius--max: 1rem;
+
+  /* --width--App: 425px; */
+  /* --width--App: 320px; */
+  --width--App: 98vw;
+  --width--App--left: 0;
+  --width--App--center: 96vw;
+  /* --width--App--center: 300px; */
+  --width--App--right: 0;
+  --max-width--App--center--content: 50rem;
+  --box-shadow--bottom: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.responsiveDesign__windowWidthType_tablet {
+  --font-size--h1: 10vmin;
+  --font-size--h2: 9vmin;
+  --font-size--h3: 8vmin;
+  --font-size--h4: 7vmin;
+  --font-size--h5: 6vmin;
+  --font-size--h6: 5vmin;
+  --font-size--default: 3vmin;
+
+  --font-weight--min: 400;
+  --font-weight--medium: 500;
+  --font-weight--semi-bold: 600;
+  --font-weight--bold: 700;
+
+  --line-height--normal: 1;
+  --line-height--small: 1.05;
+  --line-height--medium: 1.2;
+  --line-height--paragraph: 1.6;
+  --line-height--large: 1.8;
+
+  --letter-spacing--narrow: -0.5px;
+  --letter-spacing--wide: 0.75px;
+
+  --border-radius--min: 0.5rem;
+  --border-radius--medium: 0.75rem;
+  --border-radius--max: 1rem;
+
+  /* --width--App: 768px; */
+  --width--App: 98vw;
+  /* --width--App: 500px; */
+  --width--App--left: 0;
+  /* --width--App--center: 480px; */
+  --width--App--center: 96vw;
+  --width--App--right: 0;
+  --max-width--App--center--content: 50rem;
+  --box-shadow--bottom: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.responsiveDesign__windowWidthType_laptop {
+  --font-size--h1: 8vmin;
+  --font-size--h2: 7vmin;
+  --font-size--h3: 6vmin;
+  --font-size--h4: 5vmin;
+  --font-size--h5: 4vmin;
+  --font-size--h6: 3vmin;
+  --font-size--default: 2vmin;
+
+  --font-weight--min: 400;
+  --font-weight--medium: 500;
+  --font-weight--semi-bold: 600;
+  --font-weight--bold: 700;
+
+  --line-height--normal: 1;
+  --line-height--small: 1.05;
+  --line-height--medium: 1.2;
+  --line-height--paragraph: 1.6;
+  --line-height--large: 1.8;
+
+  --letter-spacing--narrow: -0.5px;
+  --letter-spacing--wide: 0.75px;
+
+  --border-radius--min: 0.5rem;
+  --border-radius--medium: 0.75rem;
+  --border-radius--max: 1rem;
+
+  /* --width--App: 1024px; */
+  /* --width--App: calc(1024px * 0.7);
+  --width--App--left: calc(500px * 0.25);
+  --width--App--center: calc(500px * 0.7); */
+  --width--App: 98vw;
+  --width--App--center: 80vw;
+  --width--App--left: 17vw;
+  --width--App--right: 0;
+  --max-width--App--center--content: 50rem;
+  --box-shadow--bottom: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.responsiveDesign__windowWidthType_laptopL {
+  --font-size--h1: 8vmin;
+  --font-size--h2: 7vmin;
+  --font-size--h3: 6vmin;
+  --font-size--h4: 5vmin;
+  --font-size--h5: 4vmin;
+  --font-size--h6: 3vmin;
+  --font-size--default: 2vmin;
+
+  --font-weight--min: 400;
+  --font-weight--medium: 500;
+  --font-weight--semi-bold: 600;
+  --font-weight--bold: 700;
+
+  --line-height--normal: 1;
+  --line-height--small: 1.05;
+  --line-height--medium: 1.2;
+  --line-height--paragraph: 1.6;
+  --line-height--large: 1.8;
+
+  --letter-spacing--narrow: -0.5px;
+  --letter-spacing--wide: 0.75px;
+
+  --border-radius--min: 0.5rem;
+  --border-radius--medium: 0.75rem;
+  --border-radius--max: 1rem;
+
+  /* --width--App: 1440px; */
+  /* --width--App: calc(1440px);
+  --width--App--left: calc(1024px * 0.2);
+  --width--App--center: calc(1024px * 0.7); */
+
+  --width--App: 98vw;
+  --width--App--center: 88vw;
+  --width--App--left: 10vw;
+
+  --width--App--right: 0;
+
+  --max-width--App--center--content: 50rem;
+
+  --box-shadow--bottom: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}

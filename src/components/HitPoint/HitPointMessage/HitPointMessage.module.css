@@ -1,0 +1,19 @@
+.hitPointMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .hitPointMessageWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+} */
+.hitPointMessageText {
+  font-size: calc(var(--font-size--default) * 0.8);
+  color: var(--color--whiter);
+
+  padding: 0.2rem;
+  text-align: left;
+  /* 改行やtab */
+  white-space: pre-wrap;
+}

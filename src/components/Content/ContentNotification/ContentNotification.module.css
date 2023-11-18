@@ -1,0 +1,15 @@
+.ContentNotification {
+  /* background-color: green; */
+  display: grid;
+  grid-template-rows: 6rem 1fr;
+  padding: 1rem;
+
+  width: calc(var(--width--App--center));
+  max-width: calc(var(--max-width--App--center--content));
+}
+
+.ContentNotification__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

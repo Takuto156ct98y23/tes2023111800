@@ -1,0 +1,50 @@
+.AreaContentOneUserGroup {
+  /* background-color: black; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.AreaContentOneUserGroup__wrapper {
+  /* width: calc(var(--width--App--center) * 1); */
+
+  width: calc(var(--width--App--center));
+  max-width: calc(var(--max-width--App--center--content));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AreaContentOneUserGroup__wrapper__button {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.AreaContentOneUserGroup__wrapper__header {
+  width: 100%;
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pageTitle {
+  /* width: calc(var(--width--App--center) * 0.9); */
+
+  width: calc(var(--width--App--center) * 0.9);
+  max-width: calc(var(--max-width--App--center--content) * 0.9);
+
+  background-color: var(--color--gray--light);
+  padding: 1rem;
+  word-wrap: break-word;
+  border-radius: var(--border-radius--min);
+  /* 改行やtab */
+  /* white-space: pre-wrap; */
+}
+
+.AreaContentOneUserGroup__wrapper__main {
+  width: 100%;
+}
+.AreaContentOneUserGroup__wrapper__userBox {
+}

@@ -1,0 +1,26 @@
+.Law {
+  width: calc(var(--width--App--center));
+  max-width: calc(var(--max-width--App--center--content));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+}
+
+.textWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  /* 改行やtab */
+  white-space: pre-wrap;
+}

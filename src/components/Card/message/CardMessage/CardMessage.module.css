@@ -1,0 +1,125 @@
+.AreaCardMessage {
+  padding: 0.5rem;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+}
+
+.CardMessage_isMyMessage {
+  align-items: flex-end;
+}
+.CardMessage_isNotMyMessage {
+  align-items: flex-start;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0;
+
+  display: flex;
+  align-items: center;
+}
+.top_isMyMessage {
+  justify-content: flex-end;
+}
+.top_isNotMyMessage {
+  justify-content: flex-start;
+}
+
+.name {
+  background-color: var(--color--gray--light);
+  width: fit-content;
+  padding: 0.1rem 0.3rem;
+  font-size: x-small;
+
+  cursor: pointer;
+}
+.name_isMyMessage {
+}
+.name_isNotMyMessage {
+}
+
+.button {
+  /* width: 100%; */
+  /* max-width: calc(var(--width--App--center) * 0.7); */
+  display: grid;
+
+  --width--left: 5rem;
+  --width--right: 5rem;
+  grid-template-columns: var(--width--left) auto var(--width--right);
+
+  /* justify-items: stretch; */
+}
+.button_isMyMessage {
+  justify-items: end;
+}
+.button_isNotMyMessage {
+  justify-items: start;
+}
+
+.button__cell_UserImage {
+  padding: 0.2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.wrapperUserImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.wrapperUserImage_isMyMessage {
+  justify-content: flex-end;
+}
+.wrapperUserImage_isNotMyMessage {
+  justify-content: flex-start;
+}
+
+.UserImage {
+}
+
+.wrapperText {
+  /* 指マーク */
+  cursor: pointer;
+
+  display: flex;
+
+  position: relative;
+}
+
+.wrapperText_isMyMessage {
+  justify-content: flex-end;
+}
+.wrapperText_isNotMyMessage {
+  justify-content: flex-start;
+}
+
+/* http://apps.eky.hk/css-triangle-generator/ */
+.commentPointer_right {
+  position: absolute;
+  /* 文字に被らない程度（2.5-2=0.5）に、コメント本体と被らせる */
+  right: -2.3rem;
+  top: 0.5rem;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1.5rem 2.5rem 0 0;
+  border-color: var(--color--main--dark) transparent transparent transparent;
+}
+.commentPointer_left {
+  position: absolute;
+  /* 文字に被らない程度（2.5-2=0.5）に、コメント本体と被らせる */
+  left: -2.3rem;
+  top: 0.5rem;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 2.5rem 1.5rem 0;
+  border-color: transparent var(--color--main--dark) transparent transparent;
+}

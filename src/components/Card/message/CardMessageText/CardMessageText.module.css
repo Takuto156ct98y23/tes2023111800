@@ -1,0 +1,51 @@
+.CardMessageText {
+}
+
+.Segments {
+  display: flex;
+  /* max-widthを超えたsegmentを改行させるのに必要 */
+  flex-wrap: wrap;
+
+  /* max-width: calc(var(--width--App--center) * 0.6); */
+  background-color: var(--color--main--dark);
+  color: var(--color--sub--light);
+  padding: 0.5rem;
+
+  /* スペース出すのに必要 */
+  white-space: pre-wrap;
+
+  border-radius: var(--border-radius--medium);
+}
+.Segment {
+  padding-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+.Segment_nextLine {
+  width: 100%;
+}
+.Segment_nextLine_withHeight {
+  height: calc(var(--font-size--default) * 1.95);
+}
+.Segment_nextLine_noHeight {
+  height: 0rem;
+}
+.SegmentTop {
+  height: calc(var(--font-size--default) * 0.9);
+}
+.SegmentTop__str {
+  /* color: var(--color--sub--light); */
+  opacity: 0.6;
+  font-size: calc(var(--font-size--default) * 0.8);
+}
+.SegmentBottom {
+  height: calc(var(--font-size--default) * 1.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SegmentBottom__str {
+}

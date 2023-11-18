@@ -1,0 +1,53 @@
+.ContentChatRoomRandom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  /* padding: 3rem;
+  gap: 3rem; */
+}
+.PageTop {
+  /* padding: 1rem; */
+  /* display: grid;
+  grid-template-rows: 3rem 1fr; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PageTop__explanation {
+  padding: 1rem;
+  background-color: var(--color--gray--light);
+  border-radius: var(--border-radius--min);
+}
+
+.AreaCompensation {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AreaCompensation__message {
+}
+.AreaCompensation__linkMessage {
+}
+
+.AreaButtonJumpToConfig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AreaButtonChatRoomRandom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.MessageBelowButtonChatRoomRandom {
+}
+
+.MessageBelowButtonChatRoomRandom__text {
+  /* 改行やtab */
+  white-space: pre-wrap;
+}

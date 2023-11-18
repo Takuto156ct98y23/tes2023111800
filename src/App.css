@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --width--scrollbar: 0.5rem;
+  --height--Footer: 6rem;
+
+  --z-index--topMinus00: 99999999;
+  --z-index--topMinus01: 9999999;
+  --z-index--topMinus02: 999999;
+  --z-index--topMinus03: 99999;
+  --z-index--topMinus04: 9999;
+  --z-index--topMinus05: 999;
+
+  /* defaultの値。基本的にこれらは上書きされる。 */
+  --width--App: 98vw;
+  --width--App--center: 88vw;
+  --width--App--left: 10vw;
+  --width--App--right: 0;
+  --max-width--App--center--content: 50rem;
+  /* --width--App: calc(1440px * 0.7);
+  --width--App--left: calc(1024px * 0.2);
+  --width--App--center: calc(1024px * 0.7);
+  --width--App--right: 0; */
+
+  /* defaultの値は以上。 */
+}

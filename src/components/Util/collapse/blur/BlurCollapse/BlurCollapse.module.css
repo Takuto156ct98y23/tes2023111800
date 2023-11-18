@@ -1,0 +1,61 @@
+.BlurCollapse {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
+.childrenWrapper {
+  position: relative;
+  display: flex;
+  width: auto;
+}
+
+.wrapperOpened {
+  height: fit-content;
+}
+.wrapperClosed {
+  overflow: hidden;
+}
+
+.BlurFilter {
+  position: absolute;
+}
+
+.content {
+  width: auto;
+}
+.contentOpened {
+  /* min-height: 75px; */
+}
+.contentClosed {
+  /* min-height: 75px; */
+  /* max-height: 200px; */
+}
+
+.childrenIcon {
+  position: absolute;
+  top: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.angleBasic {
+  position: absolute;
+  z-index: 1;
+
+  bottom: 0px;
+
+  display: flex;
+}
+
+.angleDown {
+  align-self: flex-end;
+  transform: rotate(180deg);
+}
+
+.angleUp {
+  align-self: flex-end;
+}

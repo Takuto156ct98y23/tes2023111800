@@ -1,0 +1,204 @@
+.ContentChatRoomOne {
+  /* background-color: var(--color--main--light); */
+
+  /* width: var(--width--App--center); */
+  /* width: calc(var(--width--App--center) * 0.5); */
+  width: var(--width--App--center);
+  /* min-width: 70vw; */
+  height: 100%;
+
+  /* これが無いとinfiniteScrollが発動しない可能性あり */
+  min-height: 100vh;
+}
+.Content {
+  width: inherit;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardChatRoomDoesNotExist {
+  background-color: var(--color--main--dark);
+}
+
+.ContentHeader {
+  /* padding: 1rem 0; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color--main--dark);
+}
+.ContentHeaderItem {
+  /* padding: 0 1rem; */
+}
+
+.AreaChatRoomExplanation {
+  /* background-color: green; */
+  /* padding: 1rem; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AreaChatRoomExplanation__title {
+  /* background-color: var(--color--gray--dark); */
+  color: var(--color--sub--light);
+  font-weight: var(--font-weight--bold);
+  /* border-radius: var(--border-radius--min); */
+  /* padding: 0.1rem 0.5rem 0 0.5rem; */
+}
+
+.MessageFromSocket {
+  /* height: 3.5rem; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.MessageFromSocketText {
+  background-color: var(--color--gray--dark);
+  padding: 0 1rem;
+}
+.LetsUseThisVoc {
+  padding: 1rem;
+  background-color: var(--color--gray--dark);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.LetsUseThisVoc__wrapper {
+  padding: 1rem;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.LetsUseThisVoc__wrapper__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LetsUseThisVoc__wrapper__right {
+  cursor: pointer;
+  border-radius: var(--border-radius--medium);
+  border: solid var(--color--gray--light);
+  height: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: var(--color--complementary);
+  color: var(--color--main--light);
+}
+
+.LoadingAIMessage {
+}
+.LoadingAIMessageText {
+  width: fit-content;
+}
+
+.Content_messages {
+  height: 100%;
+  background-color: var(--color--main--medium);
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+  /* width: inherit; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Content_messages__top {
+  /* width: var(--width--App--center); */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color--main--dark);
+  gap: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.Content_messages__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* max-width: var(--max-width--App--center--content); */
+  height: 100%;
+}
+
+.AreaHitPointMessage {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wrapperInfiniteScroll {
+  width: inherit;
+  height: 100%;
+
+  display: grid;
+  /* 下部のinput等のAreaSticky部分におおまかに相当する高さ */
+  grid-template-rows: auto 10rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.AreaMessages {
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+  height: 100%;
+}
+
+.AreaSticky {
+  position: sticky;
+
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.AreaSticky__wrapper {
+  /* width: var(--width--App--center); */
+
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ButtonToLeaveChat__ModalChildren {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.ButtonToLeaveChat__text {
+  color: var(--color--white);
+}
+.ConfirmLeaveChat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.MessageAboutPartnerCondition {
+  background-color: var(--color--gray--light);
+  padding: 0.5rem;
+  border-radius: var(--border-radius--medium);
+}

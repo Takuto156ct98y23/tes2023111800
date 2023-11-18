@@ -1,0 +1,27 @@
+.ContentChatRoomsEdit {
+  /* background-color: var(--color--gray--light); */
+  width: calc(var(--width--App--center));
+  max-width: calc(var(--max-width--App--center--content));
+}
+.AreaButtonJump {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.AreaCreateChatRoom {
+}
+
+.AreaCreateChatRoom_ButtonCreateChatRoom {
+  /* padding: 1rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AreaCreateChatRoom_chatRoomName {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

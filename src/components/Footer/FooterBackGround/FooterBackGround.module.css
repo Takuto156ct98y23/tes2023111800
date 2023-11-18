@@ -1,0 +1,3 @@
+.FooterBackGround {
+  height: calc(var(--height--Footer) * 1.5);
+}

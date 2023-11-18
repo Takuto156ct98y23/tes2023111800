@@ -1,0 +1,88 @@
+.RegisterOrLogin {
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+
+  /* justify-content: space-around; */
+}
+
+.AreaRegisterOrLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AreaRegisterOrLogin__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.AreaRegisterOrLogin__explanation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.AreaRegisterOrLoginContent {
+  background-color: var(--color--main--light);
+  border-radius: var(--border-radius--medium);
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0 2rem 0;
+}
+
+/* .AreaRegisterOrLogin__line{
+
+} */
+
+/* .AreaRegisterOrLogin__line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+} */
+
+/* 
+.RegisterOrLogin__areaLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+} */
+.wrapperCardChangeAuthInfo {
+  padding: 1rem;
+  width: 100%;
+  /* background-color: var(--color--gray--dark); */
+}
+.RegisterOrLogin__button {
+  /* background-color: var(--color--complementary); */
+  background-color: var(--color--main--dark);
+  color: var(--color--sub--dark);
+  border: 0.3rem solid var(--color--main--medium);
+}
+
+.CardLawRegister {
+  font-size: calc(var(--font-size--default) * 0.8);
+}
+
+.law {
+  /* display: flex; */
+}
+
+.link {
+  /* color: var(--color--white); */
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: calc(var(--font-size--default) * 0.8);
+}

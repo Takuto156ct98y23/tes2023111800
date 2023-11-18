@@ -1,0 +1,25 @@
+.ButtonBasic {
+  width: fit-content;
+  border: none;
+  border-radius: var(--border-radius--medium);
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  background-color: var(--color--primary);
+  color: var(--color--whiter);
+}
+
+.ButtonBasic:hover {
+  opacity: 0.8;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: var(--color--gray--dark);
+  /* border-color: #ccc; */
+  color: var(--color--gray--light);
+  cursor: not-allowed;
+}

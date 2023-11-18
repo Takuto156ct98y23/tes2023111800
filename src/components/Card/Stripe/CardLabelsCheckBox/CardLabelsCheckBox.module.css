@@ -1,0 +1,12 @@
+.CardLabelCheckBox {
+}
+
+.law {
+  /* display: flex; */
+}
+
+.link {
+  /* color: var(--color--white); */
+  text-decoration: underline;
+  cursor: pointer;
+}

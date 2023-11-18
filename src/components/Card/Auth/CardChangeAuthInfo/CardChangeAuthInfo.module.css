@@ -1,0 +1,56 @@
+.CardChangeAuthInfo {
+  /* background-color: var(--color--sub--dark); */
+
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.CardChangeAuthInfo_button {
+  background-color: var(--color--main--dark);
+  color: var(--color--sub--dark);
+  border: 0.3rem solid var(--color--main--medium);
+}
+
+.AreaEmailChangeAuthInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.message {
+  color: var(--color--main--light);
+}
+.errorMessage {
+  background-color: var(--color--red);
+}
+
+.AreaInputEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.AreaInputEmail__text {
+  color: var(--color--main--light);
+}
+.AreaInputEmail__text_forgetEmailAddress {
+  font-size: x-small;
+  color: var(--color--main--medium);
+}
+.AreaInputEmail__input {
+}
+
+.AreaTextConfirm {
+}
+.AreaTextConfirm__text {
+  color: var(--color--main--light);
+}
+
+.link {
+  color: var(--color--complementary);
+}

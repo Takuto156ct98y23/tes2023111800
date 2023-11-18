@@ -1,0 +1,13 @@
+.FriendRequestButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.pendingFromViewedUser {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}

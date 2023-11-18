@@ -1,0 +1,106 @@
+.CardChatRoom {
+}
+.AreaCardChatRoom {
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  /* max-width: calc(var(--width--App--center) * 0.95); */
+  height: 5rem;
+  background-color: var(--color--main--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* border-bottom: solid 0.1rem var(--color--sub--dark); */
+  box-shadow: var(--box-shadow--bottom);
+}
+
+/* .AreaCardChatRoom__wrapper__ChatRoomName {
+  max-width: calc(var(--width--App--center) * 0.5);
+} */
+.ChatRoomName {
+  width: 100%;
+  max-width: calc(var(--width--App--center) * 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChatRoomName__wrapper {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: calc(var(--width--App--center) * 0.4);
+  color: var(--color--main--light);
+  background-color: var(--color--sub--dark);
+  border-radius: var(--border-radius--min);
+}
+
+.name {
+  font-size: small;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ChatRoomUserImages {
+  width: 100%;
+  max-width: calc(var(--width--App--center) * 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChatRoomUserImages__images {
+  border-radius: var(--border-radius--min);
+
+  display: grid;
+  /* --image--size:calc(var(--font-size--default)) */
+  --image--size: 4rem;
+  grid-template-columns: repeat(3, var(--image--size));
+  grid-template-rows: repeat(1, var(--image--size));
+  justify-items: stretch;
+  align-items: stretch;
+}
+.ChatRoomUserImages__images__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.ChatRoomUserImages__images__image_user0 {
+  left: -6rem;
+}
+.ChatRoomUserImages__images__image_others {
+  left: 5.7rem;
+}
+
+.ChatRoomUserImages__images__image__wrapper {
+  position: absolute;
+  background-color: var(--color--main--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.1rem;
+
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.ChatRoomUserImages__images__others__wrapper {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+}
+
+.others {
+  background-color: var(--color--main--medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  font-size: xx-small;
+  letter-spacing: -0.1rem;
+}

@@ -1,0 +1,79 @@
+.FormElementInput {
+}
+
+.inputField {
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.inputFieldInput {
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.divInput {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.atMark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AreaTextarea {
+  padding: 1rem;
+
+  border-radius: var(--border-radius--min);
+  background-color: var(--color--white);
+
+  display: flex;
+  gap: 0.2rem;
+}
+
+.input {
+  border: 0 solid;
+}
+.hidden {
+  display: none;
+}
+
+.userInput {
+  /* width: calc(var(--width--App--center) * 0.4 * 0.7); */
+
+  width: calc(var(--width--App--center) * 0.4 * 0.7);
+  max-width: calc(var(--max-width--App--center--content) * 0.4 * 0.7);
+}
+
+.textarea {
+  background-color: transparent;
+  overflow-y: auto;
+  resize: none;
+  transition: height 0.2s;
+  /* width: fit-content; */
+  box-sizing: border-box;
+  border: 0 solid;
+  height: 10rem;
+}
+
+.areaMessages {
+  position: absolute;
+  bottom: -0.5rem;
+  background-color: var(--color--gray--medium);
+  border-radius: var(--border-radius--min);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+.inputFieldMessage {
+}
+.inputFieldMessageError {
+}

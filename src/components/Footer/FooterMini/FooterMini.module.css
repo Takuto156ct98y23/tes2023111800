@@ -1,0 +1,40 @@
+.FooterMini {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.FooterMini__item {
+  z-index: var(--z-index--topMinus04);
+  background-color: var(--color--complementary);
+  color: var(--color--whiter);
+  width: var(--height--Footer);
+  height: var(--height--Footer);
+  border-radius: 50%;
+
+  border: 3px solid var(--color--gray--light);
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonRestoreHpPage {
+}
+.ButtonRestoreHpPage__text {
+}
+
+.ButtonCroudFunding {
+  background-color: var(--color--whiter);
+  color: var(--color--gray--dark);
+  text-decoration: none;
+  font-weight: var(--font-weight--bold);
+}
+.ButtonCroudFunding__text {
+}

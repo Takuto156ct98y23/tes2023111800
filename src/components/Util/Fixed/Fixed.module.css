@@ -1,0 +1,6 @@
+.Fixed {
+  position: fixed;
+  background-color: blue;
+  left: 10px;
+  top: 10px;
+}

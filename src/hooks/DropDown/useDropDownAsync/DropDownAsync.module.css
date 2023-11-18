@@ -1,0 +1,26 @@
+.DropDownCardObj {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.DropDownCardObj__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  padding: calc(var(--width--App--center) * 0.03);
+  gap: calc(var(--width--App--center) * 0.03);
+  width: 100%;
+}
+
+.DropDownCardObj__wrapper__AreaP {
+  align-self: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DropDownCardObj__wrapper__AreaCard {
+  width: inherit;
+}

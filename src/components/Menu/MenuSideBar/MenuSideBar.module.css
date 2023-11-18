@@ -1,0 +1,19 @@
+.MenuSideBar {
+  background-color: var(--color--main--light);
+
+  width: 100%;
+
+  /* ButtonTest用 */
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+}
+.wrapper_SidebarItems {
+  display: flex;
+  flex-direction: column;
+}

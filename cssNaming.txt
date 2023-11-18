@@ -1,0 +1,17 @@
+
+===============================================
+
+BEM
+
+https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/
+
+.stick-man--red
+.stick-man__head--big
+
+.Block__Element--Modifier
+
+React用（個人的にこう決めただけ）
+.Block__Element_Modifier
+
+===============================================
+

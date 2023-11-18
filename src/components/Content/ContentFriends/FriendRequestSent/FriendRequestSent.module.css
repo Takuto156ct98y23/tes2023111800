@@ -1,0 +1,33 @@
+.FriendRequestSent {
+  padding: 1rem;
+  width: calc(var(--width--App--center));
+  max-width: calc(var(--max-width--App--center--content));
+}
+.pageTitle {
+}
+.main {
+}
+.AreaSentRequests {
+}
+.ul {
+  background-color: var(--color--gray--light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.3rem;
+}
+.listItem {
+  /* background-color: var(--color--gray--light); */
+
+  width: 100%;
+  list-style-type: none;
+}
+.AreaButtons {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}

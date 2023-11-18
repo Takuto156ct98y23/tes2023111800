@@ -1,0 +1,38 @@
+.PopUp {
+  position: relative;
+}
+
+.popUp__content {
+  position: absolute;
+
+  /* 中央寄せ */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  /* 「src\components\Card\CardVoc\CardVoc.module.css」の「.AreaVocabulary」のwidthより大きく */
+  /* width: calc(var(--width--App--center) * 0.8); */
+
+  width: calc(var(--width--App--center) * 0.8);
+  max-width: calc(var(--max-width--App--center--content) * 0.8);
+
+  /* modalのoverlayより上に */
+  z-index: var(--z-index--topMinus00);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 上向きの三角形 */
+.popUp__pointer_up {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 2rem 3rem 2rem;
+  border-color: transparent transparent var(--color--main--light) transparent;
+}
+
+.contentStr {
+}

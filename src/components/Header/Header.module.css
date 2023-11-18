@@ -1,0 +1,44 @@
+.Header {
+  background-color: var(--color--main--dark);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* display: grid;
+  --icon-size: calc(var(--font-size--default) * 1.5);
+  --lateral-size: calc(var(--icon-size) * 5.5);
+  grid-template-columns: var(--lateral-size) 1fr var(--lateral-size);
+  grid-template-rows: 1fr; */
+
+  /* justify-items: center;
+  align-items: center; */
+
+  gap: 1rem;
+}
+.Header_narrow {
+  width: var(--width--App--center);
+  /* width: 100vw; */
+}
+.Header_wide {
+  width: 100%;
+}
+
+.Icons {
+  /* width: 100%; */
+  /* width: 10px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* .Menu {
+  background-color: var(--color--main--dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MenuBackGround {
+  background-color: var(--color--main--dark);
+} */

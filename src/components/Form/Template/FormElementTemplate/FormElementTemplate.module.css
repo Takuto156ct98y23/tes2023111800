@@ -1,0 +1,52 @@
+.FormElementTemplate {
+  width: 100%;
+}
+
+.TemplateContent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.formChild {
+  /* padding: 1rem; */
+}
+.TemplateContentLabel {
+  background-color: var(--color--primary);
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  /* 改行やtab */
+  white-space: pre-wrap;
+}
+
+.label {
+  /* 改行やtab */
+  white-space: pre-wrap;
+  color: var(--color--white);
+}
+.labelSub {
+  /* 改行やtab */
+  white-space: pre-wrap;
+  font-size: x-small;
+}
+
+.TemplateContentChildren {
+  justify-self: stretch;
+  background-color: var(--color--main--dark);
+
+  /* width: 400px; */
+  /* width: 80%; */
+  display: flex;
+  /* justify-content: flex-end; */
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem;
+
+  /* childrenをabsoluteにするかもしれないのでrelativeにしておく */
+  position: relative;
+}

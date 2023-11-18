@@ -1,0 +1,157 @@
+.HitPointBar {
+  cursor: pointer;
+  /* color: black; */
+  background-color: var(--color--main--light);
+  border-radius: var(--border-radius--medium);
+  padding: 0.5rem;
+  /* height: fit-content; */
+
+  /* grid-template-rows: 4rem 1fr; */
+  display: grid;
+  align-items: center;
+  width: 100%;
+  max-width: calc(var(--max-width--App--center--content) * 0.8);
+}
+.HitPointBarWrapper {
+  background-color: var(--color--black);
+  border-radius: var(--border-radius--medium);
+  display: grid;
+
+  /* grid-template-rows: 4rem 0; */
+}
+
+.Bar {
+  position: relative;
+  display: grid;
+
+  --icon--size: calc(var(--font-size--default) * 0.9);
+  --font--size: calc(var(--font-size--default) * 0.8);
+
+  /* grid-template-columns: 2rem 3rem 1fr; */
+  grid-template-columns:
+    calc(var(--icon--size) * 1.5) calc(var(--font--size) * 2.5)
+    1fr;
+  grid-template-rows: 3rem;
+  /* height: 4rem; */
+}
+
+.HPIconWrapper {
+  /* background-color: var(--color--black); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HPIcon {
+  color: red;
+  height: 1rem;
+  width: 1rem;
+  --icon--size: calc(var(--font-size--default) * 0.9);
+  height: var(--icon--size);
+  width: var(--icon--size);
+}
+
+.hitPointBarLabel {
+  background-color: var(--color--gray--medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hitPointBarLabelWrapper {
+  /* display: grid; */
+  /* grid-template-rows: 1fr 1fr 1fr; */
+
+  width: 100%;
+}
+.hitPointBarLabelTextTop {
+  /* background-color: brown; */
+  align-self: start;
+}
+.hitPointBarLabelTextTopHP {
+}
+.hitPointBarLabelTextCenter {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.hitPointBarLabelTextCenterTextBox {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hitPointBarLabelTextCenterTextBox__label {
+  font-size: calc(var(--font-size--default) * 0.8);
+}
+.hitPointBarLabelTextCenterCurrentHitPoints {
+  font-weight: var(--font-weight--bold);
+  font-size: calc(var(--font-size--default) * 0.8);
+}
+.hitPointBarLabelTextButtom {
+  display: flex;
+  justify-content: flex-end;
+}
+.hitPointBarLabelTextButtomMaxHitPoint {
+}
+
+/* .hitPointBarLabelText {
+  color: blue;
+  align-self: center;
+} */
+.hitPointBarContainer {
+  /* background-color: orange; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.hitPointBarFill {
+  height: 2rem;
+
+  position: relative;
+}
+
+.TextOnHPBar {
+  left: 1rem;
+  position: absolute;
+
+  height: 100%;
+  /* background-color: teal; */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: var(--z-index--topMinus00);
+}
+.TextOnHPBar__text {
+}
+.TextOnHPBar__text_minus {
+  color: var(--color--red);
+}
+.TextOnHPBar__text_minus {
+}
+
+.hitPointColor_veryBad {
+  background-color: rgb(255, 0, 0);
+}
+.hitPointColor_bad {
+  background-color: rgb(191.25, 63.75, 0);
+}
+.hitPointColor_medium {
+  background-color: rgb(127.5, 127.5, 0);
+}
+.hitPointColor_good {
+  background-color: rgb(63.75, 191.25, 0);
+}
+.hitPointColor_veryGood {
+  background-color: rgb(0, 255, 0);
+}
+
+.textToDisplayPlus {
+  color: greenyellow;
+}
+.textToDisplayMinus {
+  color: orangered;
+}

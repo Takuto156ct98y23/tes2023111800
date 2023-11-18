@@ -1,0 +1,87 @@
+.CardVoc {
+  background-color: var(--color--main--light);
+
+  padding: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+.AreaVocabulary {
+  /* height: 100%; */
+
+  /* 「src\components\Card\CardMessage\CardMessage.module.css」の「.popUp__content」のwidthより小さく。*/
+  width: calc(var(--width--App--center) * 0.7);
+  max-width: calc(var(--max-width--App--center--content) * 0.7);
+}
+.wrapperAreaVocabulary {
+  /* background-color: var(--color--main--light); */
+  width: 100%;
+  /* height: 100%; */
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* display: grid;
+  grid-template-rows: 5rem auto auto auto auto; */
+  white-space: pre-wrap;
+  /* whiteSpace: "pre-wrap"  */
+}
+.AreaVocabulary__item {
+  /* background-color: var(--color--main--light); */
+  align-self: stretch;
+  padding: 0.5rem 1rem;
+}
+.AreaVocabulary__item__wrapper {
+  background-color: var(--color--main--dark);
+  color: var(--color--sub--dark);
+  padding: 0.5rem;
+  border-radius: var(--border-radius--min);
+}
+
+.VocabularyString {
+  background-color: var(--color--sub--dark);
+  width: 100%;
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.VocabularyString__text {
+  color: var(--color--main--light);
+  align-self: flex-start;
+  padding: 0.2rem;
+  /* width: 100%; */
+  /* font-size: 2.5rem; */
+
+  /* width: fit-content; */
+}
+
+.ExplanationMini {
+}
+.Title00 {
+  background-color: var(--color--sub--dark);
+  color: var(--color--main--light);
+  padding: 0.2rem;
+  width: fit-content;
+  /* margin-top: 2rem; */
+  /* padding-left: 1rem; */
+  /* font-size: 1.8rem; */
+}
+.Title01 {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+
+  /* font-size: 1.5rem; */
+}
+
+.TextNormal {
+  margin-top: 0.3rem;
+  padding-left: 3rem;
+}
+
+.strCopyRight {
+  white-space: pre-wrap;
+}

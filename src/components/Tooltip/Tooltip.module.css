@@ -1,0 +1,33 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltiptext {
+  position: absolute;
+
+  visibility: hidden;
+
+  /* transition: all 0.2s ease; */
+  background-color: var(--color--gray--dark);
+  color: var(--color--whiter);
+  text-align: center;
+  border-radius: var(--border-radius--min);
+  opacity: 0.9;
+
+  /* width: calc(var(--width--App--center) * 0.7); */
+
+  width: calc(var(--width--App--center) * 0.7);
+  max-width: calc(var(--max-width--App--center--content) * 0.7);
+}
+
+.tooltiptext_visible {
+  visibility: visible;
+
+  margin-top: 0.5rem;
+
+  /* width: 100%; */
+  /* width: 30rem; */
+  min-width: 10rem;
+
+  padding: 0.5rem;
+}

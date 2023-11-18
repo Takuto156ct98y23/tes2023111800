@@ -1,0 +1,7 @@
+.NotificationToast {
+  /* white-space: pre-wrap; */
+}
+.ToastContainer {
+  /* 改行やtab */
+  white-space: pre-wrap;
+}

@@ -1,0 +1,15 @@
+.FormElementDropDown {
+}
+.dropDownArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.buttonContainer {
+}
+.AreaDropDown {
+}
+
+.tesst {
+  background-color: black;
+}

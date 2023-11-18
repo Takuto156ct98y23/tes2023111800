@@ -1,0 +1,31 @@
+.ContentSettings {
+  width: calc(var(--width--App--center));
+  max-width: calc(var(--max-width--App--center--content));
+}
+
+.ConfirmPassword {
+}
+
+.FormElementDropDown {
+}
+
+.dropDownArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.dateLabel {
+  display: flex;
+  justify-content: flex-end;
+}
+.FormElementReceiveNotificationsEmailChatRoomRandomMatch__toggleTextArea {
+  width: 100%;
+}
+.FormElementReceiveNotificationsEmailChatRoomRandomMatch__toggleTextArea__text_checked {
+  text-align: right;
+}
+.FormElementReceiveNotificationsEmailChatRoomRandomMatch__toggleTextArea__text_unChecked {
+  text-align: left;
+}

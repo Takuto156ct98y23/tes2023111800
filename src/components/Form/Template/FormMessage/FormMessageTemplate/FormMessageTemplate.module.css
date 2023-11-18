@@ -1,0 +1,6 @@
+.FormMessageTemplate {
+  /* word-wrap: break-word; */
+
+  /* 改行やtab */
+  white-space: pre-wrap;
+}

@@ -1,0 +1,64 @@
+.Footer {
+  z-index: var(--z-index--topMinus04);
+  position: fixed;
+  bottom: 0;
+  /* background-color: var(--color--main--dark); */
+  background-color: var(--color--shadow);
+  width: var(--width--App);
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr auto;
+  padding: 0 1rem;
+
+  align-items: stretch;
+
+  height: var(--height--Footer);
+}
+.FooterItem {
+  cursor: pointer;
+
+  /* padding: 0.5rem; */
+  /* background-color: var(--color--main--medium); */
+  /* justify-self: center; */
+  /* align-self: center; */
+
+  /* color: var(--color--yellow); */
+  font-size: calc(var(--font-size--default) * 2);
+  /* font-weight: var(--font-weight--bold); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 改行やtab */
+  white-space: pre-wrap;
+}
+
+.FooterItem__font_white {
+  color: var(--color--whiter);
+}
+.FooterItem__font_yellow {
+  color: var(--color--yellow);
+}
+.FooterItem__font_black {
+  color: var(--color--gray--light);
+}
+
+.FooterItem__content {
+  text-align: center;
+  /* background-color: green; */
+  /* font-size: calc(var(--font-size--default) * 0.8); */
+}
+
+.Footer__fringe {
+  background-color: var(--color--shadow);
+  /* background-color: green; */
+  position: absolute;
+  height: var(--height--Footer);
+  width: 20px;
+  bottom: 0;
+}
+.Footer__fringe_Left {
+  left: -15px;
+}
+.Footer__fringe_Right {
+  right: -15px;
+}

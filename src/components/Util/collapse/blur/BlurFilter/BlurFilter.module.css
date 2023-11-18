@@ -1,0 +1,47 @@
+.BlurFilter {
+  width: inherit;
+}
+
+.blurContainer {
+  position: relative;
+  width: auto;
+}
+
+.blur {
+  backdrop-filter: blur(8px);
+  position: absolute;
+
+  /* これが無いと「{children}」で「 position: relative;」を使われた時にblurが後ろに行って見えなくなってしまう */
+  z-index: 1;
+
+  width: auto;
+}
+
+.clickable {
+  pointer-events: none;
+  background: none;
+}
+
+.blurToTop {
+  mask: linear-gradient(to top, black, black, transparent);
+  bottom: 0;
+}
+.blurToBottom {
+  mask: linear-gradient(to bottom, black, black, transparent);
+  top: 0;
+}
+.blurToRight {
+  mask: linear-gradient(to right, black, black, transparent);
+  left: 0;
+}
+.blurToLeft {
+  mask: linear-gradient(to left, black, black, transparent);
+  right: 0;
+}
+
+.content {
+  width: auto;
+}
+.children {
+  width: auto;
+}

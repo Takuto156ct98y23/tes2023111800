@@ -1,0 +1,8 @@
+.ContentChatRoomsPrivate {
+}
+.ContentChatRoomsPrivate__head {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -1,0 +1,34 @@
+.FormElementProfilePic {
+}
+.FormElementInput_profilePic {
+  /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem; */
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  align-items: center;
+}
+.FormElementInput_profilePic__profilePic {
+  width: 5rem;
+  height: 5rem;
+}
+
+.profilePicSetting {
+  background-color: var(--color--main--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.profilePicSetting__buttons {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}

@@ -1,0 +1,39 @@
+.LineHorizontal {
+  /* background-color: gray; */
+  height: 3rem;
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+  position: relative;
+}
+.AreaRegisterOrLogin__line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+}
+.AreaRegisterOrLogin__line__border_default {
+  border: 0.1rem solid var(--color--main--medium);
+}
+
+.LineHorizontal__AreaText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: var(--width--App--center);
+  max-width: var(--max-width--App--center--content);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LineHorizontal__AreaText__text {
+  padding: 0.5rem;
+  width: fit-content;
+}
+.LineHorizontal__AreaText__text_default {
+  background-color: var(--color--main--dark);
+  /* background-color: purple; */
+}

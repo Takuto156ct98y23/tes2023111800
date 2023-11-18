@@ -1,0 +1,14 @@
+.IconKit {
+  /* padding: 0.3rem; */
+  /* background-color: pink; */
+
+  cursor: pointer;
+}
+
+.AreaIcon {
+}
+
+.icon {
+  /* font-size: 1.2rem; */
+  font-size: calc(var(--font-size--default) * 1.5);
+}

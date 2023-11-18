@@ -1,0 +1,113 @@
+/* 全体のtheme colorはここで決める */
+/* 使いたい個所で「background-color: var(--tes);」のようにして使う */
+/*
+
+--- 02 COLORS
+
+- Primary: #e67e22
+
+complementary color
+#228AE6
+
+- Tints:
+#fdf2e9
+#fae5d3
+#eb984e
+
+- Shades: 
+#cf711f
+#45260a
+
+- Accents:
+- Greys
+
+#888
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#555
+#333
+
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+
+
+https://www.color-wheel-artist.com/hue/
+
+https://www.canva.com/colors/color-wheel/
+
+https://yeun.github.io/open-color/
+
+https://maketintsandshades.com/
+
+https://flatuicolors.com/
+
+https://coolors.co/
+*/
+
+.themeColorAppLight {
+  --color--primary: #e67e22;
+
+  --color--main--light: #fdf2e9;
+  --color--main--medium: #f8d8bd;
+  --color--main--dark: #f3bf91;
+
+  --color--sub--light: #8a4c14;
+  --color--sub--medium: #5c320e;
+  --color--sub--dark: #2e1907;
+
+  --color--complementary: #228ae6;
+
+  --color--shadow: #170d03;
+  --color--black: #000000;
+
+  /* --color--main--lightを更に「https://maketintsandshades.com/」でtint化したもの */
+  --color--whiter: #fdf3eb;
+  --color--white: #fefaf6;
+
+  --color--gray--light: #bbbbbb;
+  --color--gray--medium: #888;
+  --color--gray--dark: #555;
+
+  --color--red: #ff0000;
+  --color--yellow: #ffff00;
+
+  background-color: var(--color--main--dark);
+  color: var(--color--sub--dark);
+}
+
+/* 
+
+  */
+
+.themeColorAppDark {
+  --color--primary: #1008ff;
+
+  --color--main--light: #0b06b3;
+  --color--main--medium: #080480;
+  --color--main--dark: #05024c;
+
+  --color--sub--light: #e7e6ff;
+  --color--sub--medium: #b7b5ff;
+  --color--sub--dark: #8884ff;
+
+  --color--complementary: #777b00;
+
+  --color--shadow: #170d03;
+  --color--black: #000000;
+
+  /* --color--sub--lightを更に「https://maketintsandshades.com/」でtint化したもの */
+  --color--whiter: #e9e9ff;
+  --color--white: #f5f5ff;
+
+  --color--gray--light: #525252;
+  --color--gray--medium: #363636;
+  --color--gray--dark: #1b1b1b;
+
+  --color--red: #ff0000;
+  --color--yellow: #ffff00;
+
+  background-color: var(--color--main--dark);
+  color: var(--color--sub--light);
+}

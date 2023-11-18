@@ -1,0 +1,25 @@
+.UnfriendButton {
+}
+
+.AreaDeleteButton {
+  /* width: calc(var(--width--App--center) * 0.8); */
+
+  width: calc(var(--width--App--center) * 0.8);
+  max-width: calc(var(--max-width--App--center--content) * 0.8);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.AreaDeleteButton_text {
+}
+.confirmationText {
+  color: var(--color--main--light);
+}
+
+.AreaDeleteButton_button {
+}

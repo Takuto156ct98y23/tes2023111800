@@ -1,0 +1,47 @@
+.CollapseReactCollapsed {
+  position: relative;
+  /* z-index: var(--z-index--topMinus04); */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.CollapseReactCollapsed_withZIndex {
+  z-index: var(--z-index--topMinus04);
+}
+
+.switch {
+  width: 100%;
+  display: flex;
+}
+
+/* switchの上にメニューが覆いかぶさるのを防ぐ */
+.childrenFrame {
+  position: relative;
+  width: 100%;
+}
+
+.positionAbsolute {
+  position: absolute;
+  right: 0;
+}
+
+.childrenWrapper {
+}
+
+.children {
+  background-color: var(--color--white);
+  white-space: nowrap;
+}
+
+.OverlayToCloseCollapse {
+  position: absolute;
+  /* z-index: var(--z-index--topMinus05); */
+  background-color: transparent;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.OverlayToCloseCollapse_withZIndex {
+  z-index: var(--z-index--topMinus05);
+}

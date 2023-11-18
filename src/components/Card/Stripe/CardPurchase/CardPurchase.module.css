@@ -1,0 +1,10 @@
+.CardPurchase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Message {
+  padding: 1rem;
+  background-color: var(--color--gray--light);
+  color: var(--color--sub--dark);
+}

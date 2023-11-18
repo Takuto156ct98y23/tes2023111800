@@ -1,0 +1,11 @@
+.ContentInvincible {
+  /* background-color: var(--color--sub--dark); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.ContentInvincible__pageTitle {
+  color: var(--color--sub--medium);
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  /* background-color: pink; */
+  align-self: center;
+
+  display: flex;
+}
+
+.ButtonText {
+  padding: 10px 20px;
+}
+
+.text {
+  margin: 0;
+  /* color: var(--color--sub--light); */
+  font-weight: bold;
+}

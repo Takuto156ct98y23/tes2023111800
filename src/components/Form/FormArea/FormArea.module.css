@@ -1,0 +1,50 @@
+.FormArea {
+  width: 100%;
+  background-color: var(--color--main--light);
+  border-radius: var(--border-radius--min);
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+}
+
+.AreaButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AreaMessages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AreaMessagesError {
+  background-color: var(--color--red);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.FormContainer {
+  /* background-color: var(--color--); */
+  width: 100%;
+
+  align-self: center;
+
+  display: grid;
+
+  grid-template-rows: 1fr;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.FormArea_vicinity {
+  width: 100%;
+  /* padding: 1rem 1rem 0 1rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  /* justify-content: space-between; */
+}

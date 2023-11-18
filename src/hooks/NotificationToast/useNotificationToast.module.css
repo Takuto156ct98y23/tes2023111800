@@ -1,0 +1,3 @@
+.useNotificationToast {
+  --toastify-z-index: var(--z-index--topMinus00);
+}

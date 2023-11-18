@@ -1,0 +1,19 @@
+.ButtonModal {
+}
+.unclickable {
+  pointer-events: none;
+}
+.ButtonToCloseModal {
+  background-color: var(--color--gray--medium);
+  /* color: var(--color--main--light); */
+  color: var(--color--white);
+  width: fit-content;
+  border: none;
+  border-radius: var(--border-radius--medium);
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.ButtonToCloseModal:hover {
+  opacity: 0.8;
+}

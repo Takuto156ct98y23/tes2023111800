@@ -1,0 +1,17 @@
+.ContentInfiniteScroll {
+  /* background-color: var(--color--main--light); */
+  height: auto;
+  /* スクロール不能となるのを防ぐ */
+  min-height: 120vh;
+  /* padding: 1rem; */
+}
+.AreaObjects {
+  height: auto;
+
+  /* display: grid; */
+  /* grid-template-rows: auto 5rem; */
+
+  /* position: relative; */
+}
+.Loader {
+}
